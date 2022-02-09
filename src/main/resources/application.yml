@@ -1,0 +1,24 @@
+#cloud:
+#    aws:
+#      region:
+#       static: us-east-1
+#       auto: false
+#     stack:
+#      auto: false
+#    credentials:
+#      access-key: AKIAZWP26KZHO6EJX4VW
+#      secret-key: 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
+
+
+server:
+  port: 8083
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: AKIAZWP26KZHO6EJX4VW
+      secret-key: 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
+    stack:
+      auto: false
